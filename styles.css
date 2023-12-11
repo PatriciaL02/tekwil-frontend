@@ -1,0 +1,32 @@
+.submit-button {
+    background-color: #7474dc;
+    color: white;
+}
+
+#title-section {
+    background-color: #7474dc;
+    color: white;
+}
+
+p {
+    font-size: 16px;
+}
+
+a:hover {
+    color: rgb(187, 121, 225);
+}
+
+a::before {
+    content:"\2605";
+    margin-right: 5px;
+}
+
+a::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    background-color: rgba(238, 92, 168, 0.8);
+}
