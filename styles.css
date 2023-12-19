@@ -3,9 +3,10 @@
     color: white;
 }
 
-#title-section {
+#h1-section {
     background-color: #7474dc;
     color: white;
+    display: inline-block;
 }
 
 p {
@@ -16,17 +17,34 @@ a:hover {
     color: rgb(187, 121, 225);
 }
 
-a::before {
+/* a::before {
     content:"\2605";
     margin-right: 5px;
-}
+} */
 
-a::after {
+/* a::after {
     content: '';
     display: block;
     border-bottom: 2px solid black;
+} */
+
+h1, nav, a {
+    display: inline-block;
 }
 
-h1 {
-    background-color: rgba(238, 92, 168, 0.8);
+a {
+    text-decoration: none;
+}
+
+nav img {
+    width: 30px;
+    height: 30px;
+}
+
+nav button {
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    font-size: 16px;
+    border-right: 2px solid black;
 }
