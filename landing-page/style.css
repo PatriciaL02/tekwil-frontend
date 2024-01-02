@@ -1,0 +1,300 @@
+a {
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
+
+.vector-icon {
+    margin-left: 52px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+
+.nav-main {
+    float: right;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+
+h2 {
+    color: white;
+    font-size: 36px;
+    display:inline;
+}
+
+.title-container {
+    justify-content:center;
+    color: white;
+    
+}
+
+h1 {
+    font-size: 44px;
+}
+
+.action-btn {
+    background-color: #FFA62B;
+    color: white;
+    border:none;
+    margin-right: 12px;
+}
+
+.learn-more-btn {
+    background: none;
+    border-color: white;
+    color: white;
+}
+
+.title-container button {
+    border-radius: 36px;
+    height: 36px;
+    padding-inline: 16px;
+    width:fit-content;
+}
+
+#registration-tab {
+    display: flex;
+    flex-direction:column;
+    float: right;
+    align-items: center;
+    max-width: 212px;
+    max-height: 452px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+
+ input, select {
+    padding: 12px;
+    margin: 12px;
+    align-content: center;
+    border-radius: 4px;
+    border-width: 1px;
+ }
+
+ .submit-appointment {
+    padding: 16px;
+    margin: 16px;
+    background-color: #FFA62B;
+    color: white;
+    border: none;
+    border-radius: 4px;
+ }
+
+ #home-screen {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ #first-section {
+    background-image: url("cover.png");
+    background-size: cover;
+    padding-bottom: 120px;
+ }
+
+ h4 {
+    font-weight: normal;
+    font-size: 20px;
+ }
+
+ #second-section {
+    background-color:#252B42;
+    background-size: cover;
+    padding-top: 76px;
+ }
+
+ .second-introduction {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 40px;
+ }
+
+#web-development, #national-top, #digital-marketing {
+    background-color: #D9EDFF;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 12px;
+    justify-content: center;
+    border-radius: 8px;
+    color: #252B42;
+    font-size: 20px;
+    width: 256px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+ }
+
+ #grid-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 180px;
+ }
+
+ .content {
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 8px;
+    color: #737373;
+    width: inherit;
+    z-index: 9;
+    margin-top: 100px;
+    padding-left: 0px;
+ }
+
+ .content li {
+    list-style-type: none;
+    margin-top: 8px;
+ }
+
+ .container-item {
+    color: #00A0C1;
+    padding-left: 32px;
+ }
+
+ .name-container {
+    display: grid;
+    width: 264px;
+    height: 240px;
+    position: relative;
+    margin: 30px;
+ }
+
+ body {
+    margin: 0 auto;
+
+ }
+
+ #third-section {
+    background: linear-gradient(#252B42, #063d47);
+    padding-bottom: 600px;
+ }
+
+ .third-introduction {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 28px;
+ }
+
+.img-container {
+    position: relative;
+}
+ .media-cover {
+    position: absolute;
+    left: 320px;
+ }
+
+ .play-button-icon {
+    position: absolute;
+    top: 168px;
+    left: 708px;
+ }
+
+ #forth-section {
+    background-color: #252B42;
+ }
+
+ .forth-introduction {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 60px;
+ }
+
+ .full-review {
+    background-color: white;
+    width: 328px;
+    height: 100%;
+    padding: 32px;
+    border-radius: 6px;
+ }
+
+ .reviews-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px;
+ }
+
+ .first-card p {
+    color: #737373;
+ }
+
+ .second-card {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+ }
+
+ .second-card-text {
+    display: flex;
+    flex-direction: column;
+    
+ }
+
+ .par1 {
+    color: #FFA62B;
+ }
+
+ .second-card-text p {
+    margin: 1px;
+ }
+
+ #fifth-section {
+    background-color: #252B42;
+ }
+
+ .fifth-introduction {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 60px;
+ }
+
+ .team-member-container {
+    background-color: white;
+ }
+
+ .team-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px;
+ }
+
+ .member-description p {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ 
