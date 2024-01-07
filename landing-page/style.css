@@ -63,10 +63,10 @@ h1 {
 #registration-tab {
     display: flex;
     flex-direction:column;
-    float: right;
+    justify-content: center;
     align-items: center;
-    max-width: 212px;
-    max-height: 452px;
+    max-width: 230px;
+    max-height: auto;
     background-color: white;
     padding: 20px;
     border-radius: 20px;
@@ -77,11 +77,22 @@ h1 {
   input, select {
     padding: 12px;
     margin: 12px;
-    margin-left: 0px;
-    align-content: center;
     border-radius: 4px;
     border-width: 1px;
  }
+
+ .registration label {
+   margin: 12px;
+   font-weight: 600;
+}
+
+.registration select {
+   width: 200px;
+}
+
+.registration input {
+   width: 175px;
+}
 
  .submit-appointment {
     padding: 16px;
@@ -90,6 +101,7 @@ h1 {
     color: white;
     border: none;
     border-radius: 4px;
+    width: 200px;
  }
 
  #home-screen {
@@ -135,6 +147,19 @@ h1 {
        flex-direction: column;
        align-items: center;
        margin-bottom: 50px;
+   }
+}
+
+@media (max-width: 768px) {
+   .title-container h1 {
+       text-align: center;
+   }
+}
+
+@media (max-width: 768px) {
+   .title-container h4 {
+       text-align: center;
+       margin-top: 0px;
    }
 }
 
@@ -226,6 +251,7 @@ h1 {
        display: flex;
        flex-direction: column;
        align-items: center;
+       margin-top: -80px;
    }
 }
 
@@ -323,12 +349,13 @@ h1 {
        display: flex;
        flex-direction: column;
        align-items: center;
+       margin-top: -40px;
    }
 }
 
 @media (max-width: 1000px) {
    .full-review {
-       margin-top: 100px;
+       margin-top: 50px;
    }
 }
 
@@ -376,12 +403,13 @@ h1 {
        display: flex;
        flex-direction: column;
        align-items: center;
+       margin-top: -80px;
    }
 }
 
 @media (max-width: 1000px) {
    .team-member-container {
-       margin-top: 100px;
+       margin-top: 80px;
    }
 }
 
@@ -405,7 +433,9 @@ h1 {
 .contact-form {
    display: grid;
    grid-template-columns: repeat(2, 30%);
-   grid-template-rows: repeat(4, 70px);
+   grid-template-rows: repeat(4, 75px);
+   gap: 12px;
+   margin-top: 12px;
 }
 
 .contact-form input:last-child {
@@ -414,10 +444,20 @@ h1 {
 
 .form-container * {
    border-radius: 4px;
+   border: #BDBDBD;
+}
+
+.form-container h2 {
+   margin-left: 12px;
+}
+
+.form-container h5 {
+   margin-left: 12px;
 }
 
 .submit-btn {
    margin-top: 24px;
+   margin-left: 12px;
    width: 218px;
    height: 58px;
    border-radius: 4px;
@@ -430,14 +470,19 @@ h1 {
    .contact-form {
        display: flex;
        flex-direction: column;
-       align-items: center;
        margin-top: 20px;
    }
 }
 
 @media (max-width: 1000px) {
    .contact-form select {
-       width: 190px;
+       width: 223px;
+   }
+}
+
+@media (max-width: 1000px) {
+   .contact-form input {
+       width: 200px;
    }
 }
 
@@ -549,8 +594,9 @@ footer hr {
    .part-one {
        display: flex;
        flex-direction: column;
-       align-items: center;
+       align-items: flex-start;
        margin-top: 20px;
+       margin-left: 20%;
    }
 }
 
